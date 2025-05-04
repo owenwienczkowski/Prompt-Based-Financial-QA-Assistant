@@ -1,0 +1,26 @@
+LOAN AGREEMENT SUMMARY
+
+This agreement is made between John Doe (“Borrower”) and XYZ Lending Corporation (“Lender”) on October 1, 2025.
+
+Loan Terms:
+- Loan Amount: $50,000
+- Interest Rate: 1.2% annually, fixed
+- Loan Term: October 1, 2025 through October 1, 2030
+- Payment Frequency: Monthly
+
+Repayment Terms:
+- First payment due: November 1, 2025
+- Final payment due: October 1, 2030
+- Monthly payments must be received by the 5th day of each month
+- Payments include principal and interest, calculated on a 30/360 day basis
+
+Penalty Clauses:
+- A late payment fee of $25 will be assessed for any payment received after a 5-day grace period
+- An early repayment penalty of 2% applies if the loan is paid in full before April 1, 2028
+- If the Borrower misses three (3) consecutive payments, the loan will be considered in default and the remaining balance may become due immediately
+
+Other Terms:
+- Prepayments made without full settlement are not subject to penalties
+- Borrower may request one (1) payment deferral during the loan term, subject to Lender approval
+
+Signed and agreed on October 1, 2025.
