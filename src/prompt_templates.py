@@ -8,13 +8,13 @@ def few_shot(doc, question):
     Document: {doc}
 
     Question: What is the penalty for a late payment?
-    Answer: $25 fee
+    Answer: The penalty for a late fee is $25.
 
     Question: When is the first payment due?
-    Answer: November 1, 2025
+    Answer: The first payment is due on November 1, 2025.
 
     Question: What is the loan amount?
-    Answer: $50,000
+    Answer: The loan amount is for $50,000.
 
     Question: {question}
     Answer: """
