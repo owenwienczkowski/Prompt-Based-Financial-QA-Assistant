@@ -1,15 +1,10 @@
 from src.load_text import read_text_from_file
 from src.prompt_templates import zero_shot, few_shot, chain_of_thought
 from src.qa_engine import mock_generate, gemini_generate
+from src.evaluate import save_results_to_csv
 
 document = read_text_from_file("sample_docs/loan_agreement_summary.txt")
 # print(loan_agreement)
-
-prompt = zero_shot(document, "What is the penalty for a late payment?")
-# print(prompt)
-
-response = mock_generate(prompt)
-# print(response)
 
 question1 = "When must payments be received by?"
 question2 = "When is the interest rate?"
@@ -17,6 +12,8 @@ question3 = "What is the payment frequency?"
 
 questions = [question1, question2, question3]
 
+# Use gemini_generate(prompt) for Gemini API
+# Use mock_generate(prompt) as placeholder when API output not needed. 
 zero_shot_results = {question: gemini_generate(zero_shot(document, question)) for question in questions}
 
 few_shot_results = {question: gemini_generate(few_shot(document, question)) for question in questions}
@@ -34,8 +31,15 @@ for question in questions:
     print(cot_results[question])
     print("\n")
 
+results = {
+    "Zero-shot": zero_shot_results,
+    "Few-shot": few_shot_results,
+    "Chain of Thought": cot_results
+}
+save_results_to_csv(results)
 
-'''Sample Outputs
+'''
+Sample Outputs
 [ZERO-SHOT] When must payments be received by?
 Payments must be received by the 5th day of each month.
 
@@ -74,5 +78,4 @@ Let's think step by step.
 The payment frequency is detailed in the "Loan Terms" section of the agreement. 
 The document specifies "Payment Frequency: Monthly".  
 Therefore, the payment frequency is monthly.
-
 '''

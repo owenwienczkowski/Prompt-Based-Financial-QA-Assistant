@@ -1,0 +1,10 @@
+Question,Prompt Type,Response
+When must payments be received by?,ZERO-SHOT,Payments must be received by the 5th day of each month.
+When must payments be received by?,FEW-SHOT,Payments must be received by the 5th day of each month.
+When must payments be received by?,CHAIN OF THOUGHT,"The section ""Repayment Terms"" specifies when payments must be received. It states, ""Monthly payments must be received by the 5th day of each month"". Therefore, payments must be received by the 5th of each month."
+When is the interest rate?,ZERO-SHOT,"1.2% annually, fixed."
+When is the interest rate?,FEW-SHOT,"The interest rate is 1.2% annually, fixed."
+When is the interest rate?,CHAIN OF THOUGHT,"I need to find the section that discusses the interest rate. This information is located under the ""Loan Terms"" section. The document states ""Interest Rate: 1.2% annually, fixed"". Therefore, the interest rate is 1.2% per year, and it's a fixed rate."
+What is the payment frequency?,ZERO-SHOT,Monthly
+What is the payment frequency?,FEW-SHOT,The payment frequency is monthly.
+What is the payment frequency?,CHAIN OF THOUGHT,"Let's think step by step. The payment frequency is detailed in the ""Loan Terms"" section of the agreement. The document specifies ""Payment Frequency: Monthly"". Therefore, the payment frequency is monthly."
