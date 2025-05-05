@@ -45,7 +45,7 @@ Prompt-Based-Gemini-QA-Assistant/
 
 ---
 
-## 🚀 Getting Started
+## Getting Started
 
 ### 1. Install dependencies
 ```bash
@@ -70,7 +70,7 @@ You’ll be prompted to ask analytical questions like:
 
 Type "Goodbye!" to exit.
 
-🧾 Example Output
+## Example Output
 ```csharp
 [ZERO-SHOT] What is the interest rate?
 1.2% annually, fixed.
@@ -91,3 +91,9 @@ I need to find the section that discusses the interest rate...
 - Support PDF chunking with LangChain
 - Score prompts using GPTCritic or Gemini RAG evaluation
 - Deploy with usage limits
+
+---
+
+## Author
+Owen Wienczkowski — ML/NLP Engineer-in-training, focused on LLM and NLP applications
+GitHub: @owenwienczkowski
