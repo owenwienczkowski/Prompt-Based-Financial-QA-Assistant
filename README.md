@@ -85,8 +85,28 @@ I need to find the section that discusses the interest rate...
 ```
 
 ---
+## Skills Demonstrated
+- Prompt Engineering
+  - Designed and tested zero-shot, few-shot, and chain-of-thought (CoT) prompt formats to evaluate Gemini's performance on document-based QA tasks.
 
-📦 Future Directions
+- Google Gemini API
+  - Integrated Gemini's LLM via API calls to generate responses based on document content and prompt instructions.
+
+- Large Language Models (LLM)
+  - Applied LLM reasoning techniques without fine-tuning, focusing on structured input-output handling and comparative prompt analysis.
+
+- Natural Language Processing (NLP)
+  - Processed unstructured text inputs and extracted relevant information using LLM-driven NLP workflows.
+
+- Machine Learning (ML) Foundations
+  - While no training or model fitting was performed, the project demonstrates core ML skills including evaluation mindset, reproducibility, and modular experimentation.
+
+- Python Programming
+  - Implemented a clean, modular Python codebase for managing prompt formats, user inputs, and LLM API interactions.
+
+---
+
+## Future Directions
 - Add Streamlit/Gradio UI
 - Support PDF chunking with LangChain
 - Score prompts using GPTCritic or Gemini RAG evaluation
